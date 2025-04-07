@@ -27,8 +27,9 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
-  // Ensure route groups are properly handled
+  // Configure build output and directory
   output: 'standalone',
+  distDir: '.next',
   poweredByHeader: false,
   // Environment variables should be set in Vercel dashboard
   // https://vercel.com/docs/concepts/projects/environment-variables
