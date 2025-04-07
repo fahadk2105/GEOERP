@@ -30,10 +30,8 @@ const nextConfig = {
   // Ensure route groups are properly handled
   output: 'standalone',
   poweredByHeader: false,
-  // Increase memory limit for builds
-  env: {
-    NODE_OPTIONS: '--max-old-space-size=4096'
-  }
+  // Environment variables should be set in Vercel dashboard
+  // https://vercel.com/docs/concepts/projects/environment-variables
 }
 
 if (userConfig) {
