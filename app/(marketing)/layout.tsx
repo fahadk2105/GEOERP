@@ -1,4 +1,7 @@
+"use client"
+
 import type React from "react"
+
 export default function MarketingLayout({
   children,
 }: {
@@ -6,4 +9,3 @@ export default function MarketingLayout({
 }) {
   return <div className="min-h-screen flex flex-col">{children}</div>
 }
-

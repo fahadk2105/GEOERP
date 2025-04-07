@@ -1,3 +1,5 @@
+"use client"
+
 import Link from "next/link"
 import Image from "next/image"
 import { ArrowRight, Building2, CheckCircle, MapPin, Shield, Users, Wallet } from "lucide-react"

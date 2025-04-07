@@ -27,6 +27,13 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
+  // Ensure route groups are properly handled
+  output: 'standalone',
+  poweredByHeader: false,
+  // Increase memory limit for builds
+  env: {
+    NODE_OPTIONS: '--max-old-space-size=4096'
+  }
 }
 
 if (userConfig) {
